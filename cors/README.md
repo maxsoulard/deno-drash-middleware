@@ -11,7 +11,7 @@ Cors is a [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) HTTP-ba
 
 ```ts
 import { Drash } from "https://deno.land/x/drash@v1.3.1/mod.ts";
-import { Cors } from "https://deno.land/x/drash-middleware@v0.6.1/cors/mod.ts";
+import { Cors } from "https://deno.land/x/drash_middleware@v0.7.0/cors/mod.ts";
 
 const server = new Drash.Http.Server({
   middleware: {
